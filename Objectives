@@ -1,0 +1,24 @@
+# * -> Modulos
+# - -> Parte
+
+1)Landing Page
+-Spanish Version
+-English version
+
+2)Home Spanish
+*Header(Modular)
+-Content
+*Footer(Modular)
+
+3)Home English
+*Header(Modular)
+-Content
+*Footer(Modular)
+
+4)Modulos English
+-Header
+-Footer
+
+4)Modulos Spanish
+-Header
+-Footer
