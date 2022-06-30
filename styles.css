@@ -5,20 +5,29 @@ body{
 
 #twitter {
     width: 60px;
-    height: 60px;   
+    height: 60px;
+    position: relative;
+    margin-left: 15%;
+
 }
 
 #instagram {
     width: 60px;
     height: 60px;
+    position: relative;
+    margin-left: 15%;
 }
 
 #facebook {
     width: 60px;
     height: 60px;
+    position: relative;
+    margin-left: 15%;
 }
 
 #youtube {
     width: 60px;
     height: 60px;
+    position: relative;
+    margin-left: 15%;
 }
