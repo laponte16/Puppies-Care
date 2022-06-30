@@ -132,6 +132,11 @@ nav{
     margin-bottom: 3%;
     background-color: antiquewhite;
     padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 37px 27px;
+    border-top-right-radius: 37px 27px;
+    border-bottom-left-radius: 37px 15px;
+    border-bottom-right-radius: 37px 15px;
 }
 
 #spanVacunacion{
