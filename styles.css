@@ -1,6 +1,11 @@
 body{
     background-color: white;
     background-image: url(images/paw-print-bg.jpg);
+    z-index: 2;
+}
+
+nav{
+    background-color: antiquewhite;
 }
 
 #twitter {
