@@ -22,10 +22,11 @@ header {
 nav{
     position: relative;
     width: 100%;
+    
 }
 
 #tNavBar{
-    width: 100%;
+    width: 90%;
     position: relative;
 }
 
@@ -39,6 +40,8 @@ nav{
     border-top-right-radius: 15px 11px;
     border-bottom-left-radius: 15px 11px;
     border-bottom-right-radius: 15px 11px;
+    list-style: none;
+
 }
 
 .navElement a{
@@ -52,7 +55,9 @@ nav{
 .navElement a:hover {
     color: rgb(207, 95, 95);
     /*color: rgb(0, 117, 108);*/
-  }
+}
+
+
 
 /*ELEMENTOS DEL FOOTER*/
 
