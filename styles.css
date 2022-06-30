@@ -115,6 +115,19 @@ nav{
 /*ELEMENTOS DE VACUNACION.HTML*/
 
 #vacunacion1Imagen{
-    width: 40%;
-    height: 25%;
+    width: 50%;
+    height: 35%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border: 7px;
+    border-style: solid;
+    border-color: rgb(193, 174, 145);
+    background-color: rgb(193, 174, 145);
+}
+
+#tabla1Vacunacion{
+    margin-left: 16%;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    padding-top: 15px;
 }
