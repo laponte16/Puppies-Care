@@ -1,12 +1,18 @@
+/*ELEMENTOS DEL BODY*/
+
 body{
     background-color: white;
     background-image: url(images/paw-print-bg.jpg);
     z-index: 2;
 }
 
+/*ELEMENTOS DE LA NAVBAR*/
+
 nav{
     background-color: antiquewhite;
 }
+
+/*ELEMENTOS DEL FOOTER*/
 
 #twitter {
     width: 60px;
