@@ -123,8 +123,15 @@ nav{
 }
 
 #tabla1Vacunacion{
-    margin-left: 16%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 3%;
+    margin-bottom: 3%;
     background-color: antiquewhite;
     padding-top: 15px;
+}
+
+#spanVacunacion{
+    background-color: white;
+    height: 30px;
 }
