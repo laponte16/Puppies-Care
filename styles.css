@@ -6,16 +6,26 @@ body{
     z-index: 2;
 }
 
+/*ELEMENTOS DEl HEADER*/
+
+#imagenHeader {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    float: top;
+}
+
 /*ELEMENTOS DE LA NAVBAR*/
 
 nav{
     background-color: antiquewhite;
+    width: 95%;
 }
 
 /*ELEMENTOS DEL FOOTER*/
 
 #footer {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border-top-left-radius: 37px 27px;
     border-top-right-radius: 37px 27px;
