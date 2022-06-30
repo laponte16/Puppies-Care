@@ -8,7 +8,9 @@ body{
 
 /*ELEMENTOS DEl HEADER*/
 
-#imagenHeader {
+header {
+    background-image: url(Images/Header-img.jpg);
+    margin-bottom: 2px;
     position: relative;
     width: 100%;
     height: 50px;
