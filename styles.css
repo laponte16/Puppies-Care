@@ -9,8 +9,7 @@ body{
 }
 
 .container-main-body{
-    width: 100vw;
-    height: 100wh;
+    width: 98vw;
 
     font-family: 'Quicksand', sans-serif;
 
@@ -32,7 +31,7 @@ body{
     width: 100%;
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
