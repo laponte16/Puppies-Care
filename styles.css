@@ -79,46 +79,7 @@ header {
 
 /*ELEMENTOS DE LA NAVBAR*/
 
-nav{
-    position: relative;
-    width: 100%;
-    overflow: clip;
-}
-
-#tNavBar{
-    width: 90%;
-    position: relative;
-}
-
-.navElement{
-    position: relative;
-    padding: 10px 45px;
-    background-color: rgb(255, 210, 167);
-    /*background-color: rgb(181, 226, 215);*/
-    color: black;
-    border-top-left-radius: 15px 11px;
-    border-top-right-radius: 15px 11px;
-    border-bottom-left-radius: 15px 11px;
-    border-bottom-right-radius: 15px 11px;
-    list-style: none;
-
-}
-
-.navElement a{
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    color: rgb(30, 28, 28);
-}
-
-.navElement a:hover {
-    color: rgb(207, 95, 95);
-    /*color: rgb(0, 117, 108);*/
-}
-
-
-  .checkbtn{
+.checkbtn{
     font-size: 30px;
     color: white;
     float: right;
@@ -126,11 +87,11 @@ nav{
     margin-right: 40px;
     cursor: pointer;
     display: none;
-  }
-  #check{
+}
+#check{
     display: none;
-  }
-  @media (max-width: 952px){
+}
+@media (max-width: 952px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
@@ -138,8 +99,8 @@ nav{
     nav ul li a{
       font-size: 16px;
     }
-  }
-  @media (max-width: 858px){
+}
+@media (max-width: 858px){
     .checkbtn{
       display: block;
     }
@@ -173,7 +134,7 @@ nav{
     background: url(bg1.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
-  }
+}
 
 /*ELEMENTOS DEL FOOTER*/
 
