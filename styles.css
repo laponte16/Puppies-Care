@@ -10,7 +10,7 @@ body{
 
 .container-main-body{
     width: 98vw;
-
+    margin-left: 0.5vw;
     font-family: 'Quicksand', sans-serif;
 
     display: flex;
