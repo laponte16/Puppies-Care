@@ -19,12 +19,16 @@ body{
     
 }
 
+/*ELEMENTOS DEL HEADER*/
+
 .header{
     margin: 5px;
     width: 100%;
     height: 50px;
     background-image: url(Images/Header-img.jpg);
 }
+
+/*ELEMENTOS DEL NAV*/
 
 .nav{
     margin: 5px;
@@ -56,6 +60,8 @@ body{
     /*color: rgb(0, 117, 108);*/
 }
 
+/*ELEMENTOS DEL CONTENT*/
+
 .content{
     margin: 5px;
     width: 95%;
@@ -71,6 +77,15 @@ body{
     text-align: center;
     justify-content: center;
     align-content: center;
+
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+
+    background-color: cornflowerblue;
+    border-top-left-radius: 37px 27px;
+    border-top-right-radius: 37px 27px;
+
+
 }
 
 .contentBody{
@@ -95,6 +110,16 @@ body{
     margin-left: 10%;
     margin-top: 10px;
     background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: justify;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.contentBodyRaceButtons button{
+    color: olive;
 }
 
 .contentBodyInfo{
@@ -124,6 +149,7 @@ body{
     height: 200px;
     margin-left: 10%;
     margin-bottom: 10px;
+    margin-top: 5px;
     text-align: center;
     justify-content: center;
     align-content: center;
