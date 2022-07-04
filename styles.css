@@ -96,7 +96,6 @@ body{
 }
 
 .contentBodyRace{
-    background-color: red;
     width: 30%;
     text-align: center;
     justify-content: center;
@@ -133,7 +132,6 @@ body{
 }
 
 .contentBodyInfo{
-    background-color: blue;
     width: 70%;
     text-align: center;
     justify-content: center;
