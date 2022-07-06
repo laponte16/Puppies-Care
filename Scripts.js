@@ -1,10 +1,18 @@
+var x;
+x = $(document);
+x.ready(start);
+
 var textRace = $("#textRace")
 var contentBody = $(".contentBodyInfo")
+
+function start(){
 
 $("#dalmatian").on("click", clickDalmatian);
 $("#golden").on("click", clickGolden);
 $("#salchicha").on("click", clickSalchicha);
 $("#poodle").on("click", clickPoodle);
+
+}
 
 function clickDalmatian(){
     contentBody.fadeOut(500, function(){});
