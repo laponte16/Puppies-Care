@@ -1,22 +1,31 @@
-var data = $("#textRace")
-$("#dalmatian").on("click", clickDalmatian());
+var textRace = $("#textRace")
+var contentBody = $(".contentBodyInfo")
 
-/*var texto = $("#textRace");
-botonDalmata = $("#dalmatian");
-botonDalmata.click(clickDalmatian());*/
-
+$("#dalmatian").on("click", clickDalmatian);
+$("#golden").on("click", clickGolden);
+$("#salchicha").on("click", clickSalchicha);
+$("#poodle").on("click", clickPoodle);
 
 function clickDalmatian(){
-    /*data.fadeOut(1000, function(){});*/
-    document.getElementById("textRace").textContent = "jiji nation";
-    /*data.fadeIn(500, function(){});*/
-
+    contentBody.fadeOut(500, function(){});
+    window.setTimeout(function(){textRace.text("Dalmatas")},600);
+    contentBody.fadeIn(1500, function(){});
 }
 
-/* 
-function onButtonDalmatian(){
-    document.getElementById("textRace").fadeOut("slow", function(){});
-    document.getElementById("textRace").textContent = "jiji";
-    document.getElementById("textRace").fadeIn("slow", function(){});
+function clickGolden(){
+    contentBody.fadeOut(500, function(){});
+    window.setTimeout(function(){textRace.text("Golden")},600);
+    contentBody.fadeIn(1500, function(){});
 }
-*/
+
+function clickSalchicha(){
+    contentBody.fadeOut(500, function(){});
+    window.setTimeout(function(){textRace.text("Salchicha")},600);
+    contentBody.fadeIn(1500, function(){});
+}
+
+function clickPoodle(){
+    contentBody.fadeOut(500, function(){});
+    window.setTimeout(function(){textRace.text("Poddle")},600);
+    contentBody.fadeIn(1500, function(){});
+}
