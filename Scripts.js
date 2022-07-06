@@ -16,24 +16,24 @@ $("#poodle").on("click", clickPoodle);
 
 function clickDalmatian(){
     contentBody.fadeOut(500, function(){});
-    window.setTimeout(function(){textRace.text("Dalmatas")},600);
+    window.setTimeout(function(){textRace.text("Dalmatas")},700);
     contentBody.fadeIn(1500, function(){});
 }
 
 function clickGolden(){
     contentBody.fadeOut(500, function(){});
-    window.setTimeout(function(){textRace.text("Golden")},600);
+    window.setTimeout(function(){textRace.text("Golden")},700);
     contentBody.fadeIn(1500, function(){});
 }
 
 function clickSalchicha(){
     contentBody.fadeOut(500, function(){});
-    window.setTimeout(function(){textRace.text("Salchicha")},600);
+    window.setTimeout(function(){textRace.text("Salchicha")},700);
     contentBody.fadeIn(1500, function(){});
 }
 
 function clickPoodle(){
     contentBody.fadeOut(500, function(){});
-    window.setTimeout(function(){textRace.text("Poddle")},600);
+    window.setTimeout(function(){textRace.text("Poodle")},700);
     contentBody.fadeIn(1500, function(){});
 }
