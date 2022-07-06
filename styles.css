@@ -4,7 +4,7 @@
 body{
     margin: 0;
     background-color: white;
-    background-image: url(images/paw-print-bg.jpg);
+    background-image: url(images/paw-print-2.jpg);
     z-index: 2;
     width: 100%;
 }
@@ -254,7 +254,7 @@ header {
 .wrapper-index{
     width: 100%;
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.5)), url(images/493535.jpg);
+    background-image:linear-gradient(rgba(207, 95, 95, 0.4),rgba(0, 0, 0, 0.4)), url(images/493535.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -269,7 +269,8 @@ header {
 .main-section-index{
     width: 50%;
     line-height: 1;
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
+    margin-right: 15vh;
 }
 
 .content-index h1{
