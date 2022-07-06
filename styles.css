@@ -229,11 +229,11 @@ body{
 /*ELEMENTOS DEl HEADER*/
 
 header {
-    background-image: url(Images/Header-img.jpg);
+    background-image: url(Images/header.jpg);
     margin-bottom: 2px;
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 30px;
     float: top;
 }
 
@@ -254,20 +254,22 @@ header {
 .wrapper-index{
     width: 100%;
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.60)), url(images/c67411719487b6985fc8cc861487bf31.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.5)), url(images/493535.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
+    
 }
+
 
 .main-section-index{
     width: 50%;
     line-height: 1;
-
+    margin-bottom: 30vh;
 }
 
 .content-index h1{
@@ -276,29 +278,37 @@ header {
     font-weight: 800;
     letter-spacing: 1.5px;
     color: antiquewhite;
+    margin-right: 5vh;
 }
 
 .content-index p{
     font-size: 17px;
-    margin-top: 25px;
     line-height: 1.5;
     color: antiquewhite;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
 
 }
 
 .content-index.button-index{
-    margin-top: 25px;
+    margin-top: 5vh;
 }
 
 .content-index .button-index a{
     font-size: 20px;
     background-color: rgb(255, 210, 167);
+    border-top-left-radius: 15px 11px;
+    border-top-right-radius: 15px 11px;
+    border-bottom-left-radius: 15px 11px;
+    border-bottom-right-radius: 15px 11px;
     text-transform: uppercase;
-    margin-top: 25px;
     text-decoration: none;
     padding: 12px 20px;
     color: black;
     letter-spacing: 1.5px;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
 .content-index .button-index a:hover{
