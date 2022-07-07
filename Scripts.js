@@ -28,6 +28,8 @@ $("#badEating").on("click", clickBadEating);
 $("#vaccine").on("click", clickVaccine);
 $("#medicalCare").on("click", clickMedicalCare);
 $("#sterilize").on("click", clickSterilize);
+/*SLIDE FUNCTIONS CALLS*/
+
 }
 
 /*BREED FUNCTIONS DEFINITIONS*/
@@ -121,7 +123,7 @@ function clickBadEating(){
 /*VETERINARY FUNCTIONS DEFINITIONS*/
 function clickVaccine(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Better to get it done with quickly, is our motto!")},700);
+    window.setTimeout(function(){textRace.text("Better to get it done with quickly is our motto!")},700);
     imgUrl = "Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
@@ -140,3 +142,4 @@ function clickSterilize(){
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
+/*SLIDE FUNCTIONS DEFINITIONS*/
