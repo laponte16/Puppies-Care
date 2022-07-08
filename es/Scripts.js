@@ -36,14 +36,14 @@ $("#sterilize").on("click", clickSterilize);
 function clickDalmatian(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("El mejor amigo de un bombero, tomando el escenario con pelaje singular!");},700);
-    imgUrl = "../Images/dalmata.jpg"
+    imgUrl = "../Images/dalmata1.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickGolden(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Solo hay cosas buenas que decir sobre la personalidad de estos tontitos. Solo miralos con esa sonrisa perpetua!")},700);
-    imgUrl = "../Images/golden.jpg"
+    imgUrl = "../Images/golden1.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
