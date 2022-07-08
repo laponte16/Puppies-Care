@@ -478,3 +478,19 @@ body{
        margin: 0 auto;
     }
  }
+
+ /*ELEMENTOS DE ABOUT*/
+ #about{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+    border: 6px solid rgba(199, 108, 108, 0.4);
+    background-color: antiquewhite;
+
+    font-size: 17px;
+ }
