@@ -35,110 +35,110 @@ $("#sterilize").on("click", clickSterilize);
 /*BREED FUNCTIONS DEFINITIONS*/
 function clickDalmatian(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("A fireman's best friend, taking the stage with his stylish coat!");},700);
-    imgUrl = "Images/dalmata.jpg"
+    window.setTimeout(function(){textRace.text("El mejor amigo de un bombero, tomando el escenario con pelaje singular!");},700);
+    imgUrl = "../Images/dalmata.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickGolden(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("There's nothing but good things to say about the personality of those silly old goofs. Just look at them and that perpetual smile!")},700);
-    imgUrl = "Images/golden.jpg"
+    window.setTimeout(function(){textRace.text("Solo hay cosas buenas que decir sobre la personalidad de estos tontitos. Solo miralos con esa sonrisa perpetua!")},700);
+    imgUrl = "../Images/golden.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickSalchicha(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Few dogs races are as loyal and lovable as these little sausages. Those eyes don't lie!")},700);
-    imgUrl = "Images/salchicha.jpg"
+    window.setTimeout(function(){textRace.text("Pocas razas de perro son tan leales y adorables como estos pequeños embutidos. Esos ojos no mienten!")},700);
+    imgUrl = "../Images/salchicha.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickPoodle(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("The belladonna of the canine world, Poodles are an old time favorite. Fancy and warm, what's there not to love about them?")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Las divas del mundo canino, los Poodles son un viejo favorito. Elegante y calidos, que no hay para amar sobre ellos?")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 /*TRAINING FUNCTIONS DEFINITIONS*/
 function clickTricks(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Want to impress your guests in the next holiday? Let us teach your Dog a repertoire of tricks to blow them away from the fact that the chicken is a bit bland this time around!")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Quieres impresionar a la visita en el proximo feriado? Dejanos enseñarle a tu perro un repertorio de trucos que los distraera del hecho de que el pollo salio simple esta vez!")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBehaviour(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Dogs are pretty good learners, if you know how to teach them! Let us educate the little fella through Canine High School before he rips another pair of your favorite shoes.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Los perros son muy buenos estudiantes, si sabes como enseñarles! Dejanos educar a tu amiguin a traves de la Escuela Perruna antes de que acaba con otro par de tus zapatos")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickName(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Everybody needs a name! And even more importantly, they need to know it is them you're talking to. We will make sure Fido no longer makes a fool of you when you ask them to come over.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Todos necesitan un nombre! Y aun mas importante, necesitan saber que es a ellos que le hablan. Nos aseguraremos que Fido no deje mas como un tonto cuando les pidas que vengan a ti")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 /*HAIR STYLING FUNCTIONS DEFINITIONS*/
 function clickStyling(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("If you thought only humans could look fancy, think again! Soon, your Dog will be the envy of the block.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Si pensaste que solo los humanos podian verse estilizados, piensa otra vez! Pronto, tu Perro sera la envidia de la cuadra")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickWashing(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Your furry friend getting a Lil' Dusty? Those pawprints are starting to ruin your second carpet this year? Never fear, We are here.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Tu amigo peludo empieza a acumular polvo? Esas huellas empiezan a arruinar tu segunda alfombra este año? No temas, aqui estamos")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickDecoration(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("If you thought your pet was beautiful before, wait until we pretty them up with the latest in canine fashion!")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Si pensaste que tu mascota era hermosa antes, espera a que los presentemos con lo ultimo en moda canina!")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 /*NUTRITION FUNCTIONS DEFINITIONS*/
 function clickEating(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Proper nutrition, favorite foods, those treats he will never forget. We got it all.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Nutricion apropiada, comidas favoritas, esas golosinas que nunca olvidara. Lo tenemos todo")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBadEating(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("As fun and cute as it is to feed them from the table, some things are a no-no if you want to remain healthy! Learn with us what not to do when it comes to eating")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Tan divertido como es darles de comer desde la mesa, algunas cosas son un no-no si quieres mantenerlos sanos! Aprende que no hacer cuando se trata de comer perruno")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 /*VETERINARY FUNCTIONS DEFINITIONS*/
 function clickVaccine(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Better to get it done with quickly is our motto!")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Mejor salir de ello rapido es nuestro lema!")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickMedicalCare(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Efficient and affordable, our professionals are waiting to provide your friend with the medical expertise he needs!")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Eficientes y asequibles, nuestros profesionales estan esperando para proveer a tu amigo con la experticia medica que necesita!")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickSterilize(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("It's for their own good. Pinky swear.")},700);
-    imgUrl = "Images/poodle.jpg"
+    window.setTimeout(function(){textRace.text("Es por su propio bien. Lo juramos")},700);
+    imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
