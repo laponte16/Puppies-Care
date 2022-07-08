@@ -482,6 +482,7 @@ body{
  /*ELEMENTOS DE ABOUT*/
  #about{
     width: 100%;
+    margin-bottom: 5%;
     display: flex;
     flex-flow: column nowrap;
 
