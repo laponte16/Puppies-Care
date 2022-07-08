@@ -335,6 +335,11 @@ body{
     transition: 2s ease;
 }
 
+.content-index .button-index img{
+    width: 6%;
+    object-fit: contain;
+}
+
 
 /*ELEMENTOS SLIDER HOME */
 #slider {
