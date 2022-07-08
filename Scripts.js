@@ -115,7 +115,7 @@ function clickEating(){
 }
 function clickBadEating(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("As fun and cute as it is to feed them from the table, some things are a no-no if you want to remain healthy! Learn with us what not to do when it comes to eating")},700);
+    window.setTimeout(function(){textRace.text("As fun and cute as it is to feed them from the table, some things are a no-no if you want them to remain healthy! Learn with us what not to do when it comes to doggy eating")},700);
     imgUrl = "Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
