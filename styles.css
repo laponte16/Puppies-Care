@@ -393,16 +393,16 @@ body{
     color: #fff;
  }
  #slides .slide_1 {
-    background: #00171F;
+    background-image: url(Images/banner-4.jpg);
  }
  #slides .slide_2 {
-    background: #003459;
+    background-image: url(Images/banner-3.jpg);
  }
  #slides .slide_3 {
-    background: #007EA7;
+    background-image: url(Images/banner-2.jpg);
  }
  #slides .slide_4 {
-    background: #00A8E8;
+    background-image: url(Images/banner-1.jpg);
  }
 
  /*CONTROLES SLIDER*/
