@@ -43,6 +43,9 @@ body{
     margin-right: 70px;
 }
 
+.navbar a:hover{
+    color: rgb(207, 95, 95);
+}
 
 /*ELEMENTOS DEL NAV*/
 
