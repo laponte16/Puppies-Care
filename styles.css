@@ -30,6 +30,11 @@ body{
 }
 
 /*ELEMENTOS DEL NAVBAR*/
+
+.navbar{
+    margin-bottom: 35px;
+}
+
 .bg-light{
     width: 98.7vw;
     background: rgb(255, 231, 211) !important;
