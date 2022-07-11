@@ -8,6 +8,17 @@ var contentBody = $(".contentBodyInfo")
 
 function start(){
 
+/*SLIDER*/
+$('.slider').bxSlider({
+                autoControls: true,
+                auto: true,
+                pager: true,
+                slideWidth: 800,
+                mode: 'fade',
+                captions: true,
+                speed: 1000
+            });
+
 /*BREED FUNCTIONS CALLS*/
 $("#dalmatian").on("click", clickDalmatian);
 $("#golden").on("click", clickGolden);
