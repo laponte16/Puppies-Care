@@ -8,16 +8,6 @@ var contentBody = $(".contentBodyInfo")
 
 function start(){
 
-/*SLIDER*/
-$('.slider').bxSlider({
-                autoControls: true,
-                auto: true,
-                pager: true,
-                mode: 'horizontal',
-                captions: false,
-                speed: 1000
-            });
-
 /*BREED FUNCTIONS CALLS*/
 $("#dalmatian").on("click", clickDalmatian);
 $("#golden").on("click", clickGolden);
@@ -38,8 +28,15 @@ $("#badEating").on("click", clickBadEating);
 $("#vaccine").on("click", clickVaccine);
 $("#medicalCare").on("click", clickMedicalCare);
 $("#sterilize").on("click", clickSterilize);
-/*SLIDE FUNCTIONS CALLS*/
-
+/*SLIDER FUNCTIONS CALLS*/
+$('.slider').bxSlider({
+    autoControls: true,
+    auto: true,
+    pager: true,
+    mode: 'horizontal',
+    captions: false,
+    speed: 1000
+});
 }
 
 /*BREED FUNCTIONS DEFINITIONS*/
