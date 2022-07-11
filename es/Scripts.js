@@ -14,7 +14,7 @@ $('.slider').bxSlider({
                 auto: true,
                 pager: true,
                 mode: 'horizontal',
-                captions: true,
+                captions: false,
                 speed: 1000
             });
 
