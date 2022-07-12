@@ -50,7 +50,7 @@ function clickDalmatian(){
 function clickGolden(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Solo hay cosas buenas que decir sobre la personalidad de estos tontitos. Solo miralos con esa sonrisa perpetua!")},700);
-    imgUrl = "../Images/golden1.jpg"
+    imgUrl = "../Images/golden.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
