@@ -63,7 +63,7 @@ function clickSalchicha(){
 }
 function clickPoodle(){
     contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("Las divas del mundo canino, los Poodles son un viejo favorito. Elegante y calidos, que no hay para amar sobre ellos?")},700);
+    window.setTimeout(function(){textRace.text("Las divas del mundo canino, los Poodles son un viejo favorito. Elegantes y calidos, que no hay para amar sobre ellos?")},700);
     imgUrl = "../Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
