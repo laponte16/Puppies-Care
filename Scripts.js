@@ -43,7 +43,7 @@ $('.slider').bxSlider({
 function clickDalmatian(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("A fireman's best friend, taking the stage with his stylish coat!");},700);
-    imgUrl = "Images/dalmata.jpg"
+    imgUrl = "Images/dalmata1.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
@@ -72,21 +72,21 @@ function clickPoodle(){
 function clickTricks(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Want to impress your guests in the next holiday? Let us teach your Dog a repertoire of tricks to blow them away from the fact that the chicken is a bit bland this time around!")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/tricks.jpeg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBehaviour(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Dogs are pretty good learners, if you know how to teach them! Let us educate the little fella through Canine High School before he rips another pair of your favorite shoes.")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/behavior.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickName(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Everybody needs a name! And even more importantly, they need to know it is them you're talking to. We will make sure Fido no longer makes a fool of you when you ask them to come over.")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/recog.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
