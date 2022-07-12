@@ -168,8 +168,9 @@ body{
     border-bottom-left-radius: 37px 15px;
     border-bottom-right-radius: 37px 15px;
 
-    font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
+    font-family: 'Monaco', Monospace;
+    font-style: italic;
+    font-size: 16px;
 }
 /*ELEMENTOS DEl Footer*/
 
