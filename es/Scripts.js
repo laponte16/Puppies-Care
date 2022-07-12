@@ -72,21 +72,21 @@ function clickPoodle(){
 function clickTricks(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Quieres impresionar a la visita en el proximo feriado? Dejanos enseñarle a tu perro un repertorio de trucos que los distraera del hecho de que el pollo salio simple esta vez!")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/tricks.jpeg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBehaviour(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Los perros son muy buenos estudiantes, si sabes como enseñarles! Dejanos educar a tu amiguin a traves de la Escuela Perruna antes de que acaba con otro par de tus zapatos")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/behavior.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickName(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Todos necesitan un nombre! Y aun mas importante, necesitan saber que es a ellos que le hablan. Nos aseguraremos de que Fido no te deje mas como un tonto cuando les pidas que venga a ti")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/recog.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }

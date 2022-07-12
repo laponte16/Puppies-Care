@@ -146,7 +146,8 @@ body{
 
     background-color: antiquewhite;
     background-image: url(../Images/banner-vet-2.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top-left-radius: 37px 27px;
     border-top-right-radius: 37px 27px;
 }
