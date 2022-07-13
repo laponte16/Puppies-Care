@@ -115,14 +115,14 @@ function clickDecoration(){
 function clickEating(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Proper nutrition, favorite foods, those treats he will never forget. We got it all.")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/good.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBadEating(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("As fun and cute as it is to feed them from the table, some things are a no-no if you want them to remain healthy! Learn with us what not to do when it comes to doggy eating")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/bad.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
@@ -130,14 +130,14 @@ function clickBadEating(){
 function clickVaccine(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Better to get it done with quickly is our motto!")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/vaccine.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickMedicalCare(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Efficient and affordable, our professionals are waiting to provide your friend with the medical expertise he needs!")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/vet.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }

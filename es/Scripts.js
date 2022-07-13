@@ -115,14 +115,14 @@ function clickDecoration(){
 function clickEating(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Nutricion apropiada, comidas favoritas, esas golosinas que nunca olvidara. Lo tenemos todo")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/good.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickBadEating(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Tan divertido como es darles de comer desde la mesa, algunas cosas son un no-no si quieres mantenerlos sanos! Aprende que no hacer cuando se trata de comer perruno")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/bad.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
@@ -130,14 +130,14 @@ function clickBadEating(){
 function clickVaccine(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Mejor salir de ello rapido es nuestro lema!")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/vaccine.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickMedicalCare(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Eficientes y asequibles, nuestros profesionales estan esperando para proveer a tu amigo con la experticia medica que necesita!")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/vet.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
