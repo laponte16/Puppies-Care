@@ -93,21 +93,21 @@ function clickName(){
 function clickStyling(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("If you thought only humans could look fancy, think again! Soon, your Dog will be the envy of the block.")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/styling.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickWashing(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Your furry friend getting a Lil' Dusty? Those pawprints are starting to ruin your second carpet this year? Never fear, We are here.")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/washing.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickDecoration(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("If you thought your pet was beautiful before, wait until we pretty them up with the latest in canine fashion!")},700);
-    imgUrl = "Images/poodle.jpg"
+    imgUrl = "Images/deco.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }

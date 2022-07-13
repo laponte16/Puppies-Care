@@ -93,21 +93,21 @@ function clickName(){
 function clickStyling(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Si pensaste que solo los humanos podian verse estilizados, piensa otra vez! Pronto, tu Perro sera la envidia de la cuadra")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/styling.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickWashing(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Tu amigo peludo empieza a acumular polvo? Esas huellas empiezan a arruinar tu segunda alfombra este año? No temas, aqui estamos")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/washing.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
 function clickDecoration(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Si pensaste que tu mascota era hermosa antes, espera a que los presentemos con lo ultimo en moda canina!")},700);
-    imgUrl = "../Images/poodle.jpg"
+    imgUrl = "../Images/deco.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
 }
