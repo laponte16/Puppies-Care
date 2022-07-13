@@ -27,7 +27,6 @@ $("#badEating").on("click", clickBadEating);
 /*VETERINARY FUNCTIONS CALLS*/
 $("#vaccine").on("click", clickVaccine);
 $("#medicalCare").on("click", clickMedicalCare);
-$("#sterilize").on("click", clickSterilize);
 /*SLIDE FUNCTIONS CALLS*/
 $('.slider').bxSlider({
     autoControls: true,
@@ -138,13 +137,6 @@ function clickVaccine(){
 function clickMedicalCare(){
     contentBody.fadeOut(500);
     window.setTimeout(function(){textRace.text("Efficient and affordable, our professionals are waiting to provide your friend with the medical expertise he needs!")},700);
-    imgUrl = "Images/poodle.jpg"
-    window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
-    contentBody.fadeIn(1500);
-}
-function clickSterilize(){
-    contentBody.fadeOut(500);
-    window.setTimeout(function(){textRace.text("It's for their own good. Pinky swear.")},700);
     imgUrl = "Images/poodle.jpg"
     window.setTimeout(function(){imagenRace.css("background-image","url(" + imgUrl + ")");},700);
     contentBody.fadeIn(1500);
